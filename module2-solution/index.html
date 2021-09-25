@@ -3,9 +3,115 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="sol.css">
+
 	<title></title>
+<style type="text/css">
+*{
+	box-sizing: border-box;
+}
+	/*body{
+		background-color: palegoldenrod;
+	}
+	h1{
+		font-family: Copperplate;
+	}
+*/	div.parent{
+		font-family: Times New Roman;
+		height : 200px;
+
+		border : 3px solid black;
+		float: left;
+		
+		margin: 5px;
+		/*margin-right: 10px;*/
+		overflow: auto;
+		background-color: lightgray;
+		
+	}
+	p{
+		clear: right;
+		padding: 10px 10px 10px 10px;
+		font-family: Garamond;
+	}
+	div.title{
+		background-color: brown;
+		color: white;
+		margin: 0px;
+		
+		font-size: 20px;
+		padding : 0px 0px 0px 10px;
+		width : 35%;
+		height : 20%;
+		position: relative;
+		top: 0;
+		right : 0;
+		/*background-color : yellow;*/
+	}
+	div > div{
+		background-color: white;
+		border : 1px solid black;
+		float: right;
+		position: relative;
+		top: 0;
+		right : 0;
+		
+	}
+
+/*Media queries*/
+@media(min-width: 992px){
+	.col-lg-4{
+		float: left;
+		width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		float: left;
+		width: 50%;
+	}
+	.col-md-12{
+		float: left;
+		width: 100%;
+	}
+}
+@media(max-width: 767px){
+	.col-sm-12{
+		float: left
+		width: 100%;
+	}
+}
+
+</style>
+
 </head>
 <body>
-<h1>is it working?</h1>
+<h1><center>Our Menu</center></h1>
+<div class="col-lg-4 col-md-6 col-sm-12">
+<div class = "parent">
+	
+	<div class="title">Chicken</div>
+	<p>Chicken is the most common type of poultry in the world and was one of the first domesticated animals. Chicken is a major worldwide source of meat and eggs for human consumption. It is prepared as food in a wide variety of ways, varying by region and culture</p>
+	</div>
+</div>
+
+<div class="col-lg-4 col-md-6 col-sm-12">
+<div class = "parent">
+	
+	<div class="title">Beef</div>
+	<p>Beef is the culinary name for meat from bovines, especially cattle. Beef can be harvested from cows, bulls, heifers or steers. Acceptability as a food source varies in different parts of the world. </p>
+	</div>
+</div>
+
+<div class="col-lg-4 col-md-12 col-sm-12">
+<div class = "parent">
+	
+	<div class="title">Sushi</div>
+<p>Sushi is traditionally made with medium-grain white rice, though it can be prepared with brown rice or short-grain rice. It is very often prepared with seafood, such as squid, eel, yellowtail, salmon, tuna or imitation crab meat. Many types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.</p>
+</div>
+</div>
+
 </body>
 </html>
