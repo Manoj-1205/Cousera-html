@@ -20,14 +20,15 @@ div.parent{
 		margin: 5px;
 		
 		overflow: auto;
-		background-color: lightgray;
+		background-color: #E6E6FA;
 		
 	}
 	p{
 		clear: right;
 		padding: 10px 10px 10px 10px;
-		font-family: Helvetica, sans-seriff;
-		font-size: 15px;
+		font-family: serif;
+		font-size: 17px;
+		font-weight: 300;
 
 	}
 	.title1,.title2,.title3{
@@ -36,7 +37,8 @@ div.parent{
 		margin: 0px;
 		
 		font-size: 20px;
-		padding : 0px 0px 0px 10px;
+		font-weight: bold;
+		padding : 5px 5px 5px 25px;
 		width : 35%;
 		height : 20%;
 		position: relative;
