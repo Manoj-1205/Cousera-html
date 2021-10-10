@@ -1,3 +1,18 @@
 body{
-	color: green;
+	background-color: #F3E5AB;
+}
+#header-nav{
+	background-color: #3D3635;
+	border : 0;
+	border-radius: 0;
+	height: 130px;
+
+}
+.navbar-brand h1{
+	text-decoration: none;
+	color: whitesmoke;
+	font-weight: bold;
+}
+.navbar-brand a:hover{
+	text-decoration: none;
 }
