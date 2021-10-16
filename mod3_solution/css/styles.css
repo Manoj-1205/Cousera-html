@@ -62,7 +62,8 @@ div.mainclass{
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #61122f;
+  border: 0.5px solid #F0FFF0;
+  
 }
 .navbar-header button.navbar-toggle {
   clear: both;
